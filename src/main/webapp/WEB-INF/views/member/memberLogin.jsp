@@ -106,6 +106,7 @@
 			<div class="form-group">
 				<label for="phone">PHONE</label> 
 				<form:input class="form-control" id="phone" path="phone" />
+				<form:errors path="phone"></form:errors>
 				<!-- 비어 있으면 X -->
 			</div>
 			
